@@ -1,0 +1,48 @@
+@import "../variable.css";
+
+.agents {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.agents__heading {
+    font-size: 2rem;
+    color: var(--clr-text);
+    margin-bottom: 2rem;
+}
+
+.agents__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.agent__card {
+    background-color: var(--clr-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.agent__card:hover {
+    transform: translateY(-5px);
+}
+
+.agent__title {
+    font-size: 1.5rem;
+    color: var(--clr-text);
+    margin-bottom: 10px;
+}
+
+.agent__description {
+    color: var(--clr-text);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .agents__grid {
+        grid-template-columns: 1fr;
+    }
+}

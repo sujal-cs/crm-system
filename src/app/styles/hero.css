@@ -1,0 +1,7 @@
+.hero__heading {
+    font-size: clamp(24px, 5vw, 80px);
+}
+
+.hero__tagline {
+    font-size: 3vw;
+}

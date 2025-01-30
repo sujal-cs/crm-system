@@ -1,0 +1,30 @@
+@import "../variable.css";
+.link {
+    color: var(--clr-text);
+}
+
+.btn {
+    padding: 12px 12px;
+    background-color: var(--clr-text);
+    color: var(--clr-bg);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    max-width: 90vw;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.section {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .container{
+        max-width: inherit;
+    }
+}
