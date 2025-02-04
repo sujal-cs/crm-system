@@ -27,8 +27,8 @@ export default function LandingPage() {
 
 
       <main>
-        <div>  
-          
+        <div>
+
           {/* hero section  */}
           <div className="hero container section">
             <h1 className="hero__heading">Your all Enterprise management <strong>solution</strong> in one place - <strong>CRM </strong>manage your teams with ease</h1>
@@ -73,37 +73,37 @@ export default function LandingPage() {
           {/* Agents section  */}
 
           <div className="agents container section" id="agents">
-          <h2 className="agents__heading">Choose Your Role - various agents based CRM</h2>
-          <div className="agents__grid">
-            <div className="agent__card">
-              <h3 className="agent__title">Client</h3>
-              <p className="agent__description">
-                Clients can view their profiles, request services, and interact with the business.
-              </p>
-            </div>
+            <h2 className="agents__heading">Choose Your Role - various agents based CRM</h2>
+            <div className="agents__grid">
+              <div className="agent__card">
+                <h3 className="agent__title">Client</h3>
+                <p className="agent__description">
+                  Clients can view their profiles, request services, and interact with the business.
+                </p>
+              </div>
 
-            <div className="agent__card">
-              <h3 className="agent__title">CEO</h3>
-              <p className="agent__description">
-                The CEO has full access to business performance, manages agents, and makes strategic decisions.
-              </p>
-            </div>
+              <div className="agent__card">
+                <h3 className="agent__title">CEO</h3>
+                <p className="agent__description">
+                  The CEO has full access to business performance, manages agents, and makes strategic decisions.
+                </p>
+              </div>
 
-            <div className="agent__card">
-              <h3 className="agent__title">Admin</h3>
-              <p className="agent__description">
-                The Admin manages user roles, ensures security, and handles CRM technical aspects.
-              </p>
-            </div>
+              <div className="agent__card">
+                <h3 className="agent__title">Admin</h3>
+                <p className="agent__description">
+                  The Admin manages user roles, ensures security, and handles CRM technical aspects.
+                </p>
+              </div>
 
-            <div className="agent__card">
-              <h3 className="agent__title">Employee</h3>
-              <p className="agent__description">
-                Employees handle day-to-day operations and interact with clients based on their role.
-              </p>
+              <div className="agent__card">
+                <h3 className="agent__title">Employee</h3>
+                <p className="agent__description">
+                  Employees handle day-to-day operations and interact with clients based on their role.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
 
 

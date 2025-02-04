@@ -23,64 +23,78 @@ Follow these steps to get the project up and running:
 
 ### 1. Clone the repository
 
-First, clone the repository to your local machine using the following command. Make sure to replace `yourusername` with your GitHub username if necessary.
+First, clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/sujal-cs/crm.git
+```
 
+### 2. Navigate into the project folder
 
-2. Navigate into the project folder
-Go to the project directory where the repository was cloned.
+Go to the project directory where the repository was cloned:
 
-bash
-Copy
-Edit
+```bash
 cd crm
-3. Install dependencies
-Now, you need to install the required project dependencies. Run the following command:
+```
 
-bash
-Copy
-Edit
+### 3. Install dependencies
+
+Now, install the required project dependencies by running:
+
+```bash
 npm install
-This will install all necessary packages defined in package.json.
+```
 
-4. Set up environment variables (if needed)
-If your project requires any environment variables, create a .env.local file in the root of your project and add the necessary variables there. For example:
+This will install all necessary packages defined in `package.json`.
 
-env
-Copy
-Edit
+### 4. Set up environment variables (if needed)
+
+If your project requires environment variables, create a `.env.local` file in the root of your project and add the necessary variables:
+
+```env
 NEXT_PUBLIC_API_URL=your-api-url
-5. Run the project locally
-After installing dependencies, you can run the application in development mode by running:
+```
 
-bash
-Copy
-Edit
+### 5. Run the project locally
+
+After installing dependencies, start the development server by running:
+
+```bash
 npm run dev
-This command will start the development server, and you can view the app by opening a browser and navigating to http://localhost:3000.
+```
 
-6. View the application
+This will start the development server. You can view the app by opening a browser and navigating to:
+
+```
+http://localhost:3000
+```
+
+### 6. View the application
+
 Once the server is running, open your browser and go to:
 
-bash
-Copy
-Edit
+```
 http://localhost:3000
-You should now see the CRM application live in your local environment.
+```
 
-7. Build for production (optional)
-If you want to build the project for production, run the following command:
+You should now see the CRM application running in your local environment.
 
-bash
-Copy
-Edit
+### 7. Build for production (optional)
+
+If you want to build the project for production, use the following command:
+
+```bash
 npm run build
-Once the build is completed, you can start the production server with:
+```
 
-bash
-Copy
-Edit
+Once the build is completed, start the production server with:
+
+```bash
 npm run start
+```
+
 This will serve the optimized production version of the app.
+
+---
+
+
